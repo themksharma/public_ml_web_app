@@ -17,10 +17,10 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
-kyphosis_model = pickle.load(open('kyphosis_model.sav', 'rb'))
-heart_disease_model = pickle.load(open('heart_Disease.sav', 'rb'))
-breast_cancer_model = pickle.load(open('cancer_model.sav', 'rb'))
+diabetes_model = pickle.load(open('D:\Work\deployment\diabetes_model.sav', 'rb'))
+kyphosis_model = pickle.load(open('D:\Work\deployment\kyphosis_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('D:\Work\deployment\heart_Disease.sav', 'rb'))
+breast_cancer_model = pickle.load(open('D:\Work\deployment\cancer_model.sav', 'rb'))
 
 with st.sidebar:
     
